@@ -47,16 +47,16 @@ Descreva as mudanças que você fez no `servidor.py` para:
 
 1. Devolver a mensagem **em maiúsculas**:
 
-   > _O que foi alterado e por quê:_
+   > _O que foi alterado e por quê:_ foi mudado onde a respota é montanda, só usando a função upper() pro texto ser convertiod em letras maiusculas antes de ser enviado de volta
 
 2. Exibir no log o **contador de mensagens recebidas** acumulado:
 
-   > _O que foi alterado e por quê:_
+   > _O que foi alterado e por quê:_ add um incremento da variavel de msg global que ja existia cada vez que uma mensagem chega; e colocado {total_mensagens} dentro do print que ja existia para mostrar a contagem
 
 Após a modificação, você precisou rodar `docker compose up --build`.
 Por que o `--build` é necessário aqui?
 
-> _Resposta:_
+> _Resposta:_ pro docker nao simplesmente usar a versao antiga que ja estava no computador antes da mudanca no codigo
 
 ---
 
@@ -65,13 +65,13 @@ Por que o `--build` é necessário aqui?
 Anote aqui qualquer comportamento inesperado que observaram, erros que
 apareceram e como resolveram, ou dúvidas que ainda têm:
 
->
+> nao tive muitos problemas, a maioria era relacioanda a como preparar o ambiente usando wsl 
 
 ---
 
 ## Dúvida para a próxima aula
 
 Escreva **uma pergunta** que surgiu durante a atividade e que vocês
-gostariam de ver respondida na aula seguinte:
+gostariam de ver respondida na aula seguinte: 
 
->
+> fiz isso para estudar pra prova, entao nao tem mais aula e nao faz mto sentido responder essa
